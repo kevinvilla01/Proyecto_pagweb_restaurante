@@ -60,5 +60,46 @@
 }
 
 li{
-    
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a, img, svg, span, input, select, button, textarea, ion-icon{
+    display: block;
+}
+
+img{
+    height: auto;
+}
+
+input, select, textarea{
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+ion-icon{
+    pointer-events: none;
+}
+
+address{
+    font-style: normal;
+}
+
+html{
+    font-family: var(--ff-roboto);
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--white);
+    color: var(--sonic-silver);
+    font-size: 1.6rem;
 }
