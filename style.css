@@ -316,6 +316,12 @@ body.active{
 }
 
 /* Header */
+
+.header-btn-group .btn {
+    display: none;
+    --bg-color: var(--darkOrange);
+}
+
 .header{
     --color: var(--white);
     --btn-color: var(--white);
@@ -1272,7 +1278,7 @@ body.active{
     .cta-img {
         transform: scale(1.4) translate(20px, 40px);
     }
-    
+
     /**
    * galery
    */
