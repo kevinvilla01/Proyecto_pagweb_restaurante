@@ -423,3 +423,8 @@ body.active{
     padding: 10px 15px;
     transition: var(--transition-1);
 }
+
+.navbar-link.btn-hover:is(:hover,:focus){
+    color: var(--darkOrange);
+}
+
