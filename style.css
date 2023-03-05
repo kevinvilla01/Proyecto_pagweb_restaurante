@@ -428,3 +428,77 @@ body.active{
     color: var(--darkOrange);
 }
 
+/* Animaciones icons menu */
+
+.line{
+    width: 10px;
+    height: 3px;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    transition: var(--transition-1);
+}
+
+.line.middle{
+    width: 20px;
+}
+
+.line.bottom{
+    margin-left: auto;
+}
+
+.nav-toogle-btn.active .line.top{
+    transform: translate(1px, 3px) rotate(45deg);
+}
+
+.nav-toogle-btn.active .line.middle{
+    transform: rotate(-45deg);
+}
+
+.nav-toogle-btn.active .line.bottom{
+    transform: translate(-1px, -3px) rotate(45deg);
+}
+
+/* Banner principal */
+
+.banner-img{
+    display: none;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 145px 60px;
+    text-align: center;
+}
+
+.banner-subtitle{
+    color: var(--darkOrange);
+    font-family: var(--ff-shadows-into-light);
+    font-size: var(--fs-3);
+    letter-spacing: 1px;
+    margin-block-end: 20px;
+}
+
+.banner-title{
+    color: var(--white);
+    max-width: 12ch;
+    margin-inline: auto;
+}
+
+.banner-text{
+    color: #e8e8e8;
+    margin-block: 15px 30px;
+    max-width: 44ch;
+    margin-inline: auto;
+}
+
+.banner .btn{
+    margin-inline: auto;
+}
+
+.banner .btn:is(:hover,:focus){
+    background-color: var(--white);
+    color: var(--black);
+}
+
